@@ -51,8 +51,8 @@ export const movies = [{
   "actors": "Rebecca Hall, Scarlett Johansson, Christopher Evan Welch, Chris Messina",
   "plot": "Two girlfriends on a summer holiday in Spain become enamored with the same painter, unaware that his ex-wife, with whom he has a tempestuous relationship, is about to re-enter the picture.",
   "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NDQ4MTg2MV5BMl5BanBnXkFtZTcwNDUzNjU3MQ@@._V1_SX300.jpg"
-}, {
-  "id": 55,
+},
+{ "id": 55,
   "title": "Lost in Translation",
   "year": "2003",
   "runtime": "101",
@@ -269,4 +269,5 @@ export const movies = [{
   "actors": "Matt Damon, Jessica Chastain, Kristen Wiig, Jeff Daniels",
   "plot": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
   "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SX300.jpg"
-}]
+}
+]
