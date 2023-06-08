@@ -57,14 +57,14 @@ function App() {
             </button>
             <button disabled={sira<=0}
                 onClick={()=>{dispatch(oncekiMovie())}}
-                className={`select-none px-4 py-2 border border-blue-700 text-blue-700 hover:border-blue-500 hover:text-blue-500 ${sira<=0 && 'bg-red-200'}`}
+                className={`select-none px-4 py-2 border border-blue-700 text-blue-700 hover:border-blue-500 hover:text-blue-500 ${sira<=0 && 'bg-red-200 border-red-700 text-red-700'}`}
               >
                 Önceki
               </button>
               <button
                 disabled={sira===movies.length-1}
                 onClick={()=>{dispatch(siradakiMovie())}}
-                className={`select-none px-4 py-2 border border-blue-700 text-blue-700 hover:border-blue-500 hover:text-blue-500 ${sira===movies.length-1 && 'bg-red-200'}`}
+                className={`select-none px-4 py-2 border border-blue-700 text-blue-700 hover:border-blue-500 hover:text-blue-500 ${sira===movies.length-1 && 'bg-red-200 border-red-700 text-red-700'}`}
               >
                 Sıradaki
               </button>
